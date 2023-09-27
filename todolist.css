@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Prompt:wght@500&display=swap');
+
+body{
+
+    background-image: linear-gradient(to right bottom, #665adc, #0086f7, #00a8f9, #00c3eb, #3bdada);    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+#mainSection{
+
+    background: white;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+#title{
+
+    background: rgba(0, 128, 0, 0);
+}
+h2{
+
+    font-size: 22pt;
+}
+#divTaskInf{
+
+    background: rgba(255, 166, 166, 0);
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#textTask{
+
+    background: white;
+    color: grey;
+    border: solid 2px rgb(172, 172, 172);
+    width: 200px;
+    height: 5px;
+    padding: 15px;
+    border-radius: 30px;
+    font-family: 'Inclusive Sans', sans-serif;
+    outline: none;
+}
+#btnResult{
+
+    background: #1eaafc;
+    color: white;
+    border: none;
+    padding: 3px;
+    width: 65px;
+    height: 38px;
+    border-radius: 25px;
+    margin-left: 5px;
+    font-size: 14pt;
+    transition: .4s;
+    cursor: pointer;
+
+    
+}
+#btnResult:hover{
+
+    background: #1e6cfc;
+}
+#divTasks{
+
+    background: rgba(165, 42, 42, 0);
+    color: grey;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#createDivTask{
+
+    background: rgba(245, 245, 245, 0);
+    margin: auto;
+    width: 280px;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#btnDeleteTask{
+
+    background: white;
+    border: solid 2px rgb(172, 172, 172);
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    transition: .4s;
+    cursor: pointer;
+}
+#btnDeleteTask:hover{
+
+    background: rgb(252, 48, 48);
+    color: white;
+    border: solid 2px rgba(172, 172, 172, 0);
+}
+#pTask{
+
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 14pt;
+    color: black;
+}
