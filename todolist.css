@@ -109,6 +109,7 @@ h2{
     cursor: pointer;
     text-align: center;
     padding:3px;
+    color:brown;
 }
 #btnDeleteTask:hover{
 
